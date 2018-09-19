@@ -8,13 +8,13 @@
 #include <p18F4550.inc> 
 ;include the controller library to use all the predefined definitions
 
-  CONFIG WDT    = OFF       ;Turn watchdog timer off
-  CONFIG MCLRE  = ON        ;Turn on the master clear pin
-  CONFIG DEBUG  = ON        ;Turn debug on
-  CONFIG LVP    = OFF       ;Turn low voltage power off
-  CONFIG FOSC   = INTOSC_EC ;Turn internal oscillator on since we are not using external
+CONFIG WDT    = OFF       ;Turn watchdog timer off
+CONFIG MCLRE  = ON        ;Turn on the master clear pin
+CONFIG DEBUG  = ON        ;Turn debug on
+CONFIG LVP    = OFF       ;Turn low voltage power off
+CONFIG FOSC   = INTOSC_EC ;Turn internal oscillator on since we are not using external
 
-  org 0; start programing at 0
+org 0; start programing at 0
 
 Delay1 res 2 ;Save 2 bytes for the two delay variables since we want
 Delay2 res 2 ;the delays to be longer
