@@ -1,3 +1,10 @@
+;******************************************************
+;   HelloWorld.asm
+;   EEL 4935-006 Embedded Systems
+;   Author: Mushfiq Mahmud
+;   Modified from class example
+;******************************************************
+
 #include <p18F4550.inc> 
 ;include the controller library to use all the predefined definitions
 
