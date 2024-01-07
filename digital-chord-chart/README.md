@@ -1,4 +1,5 @@
 ![Alt text](http://mushfiqmahmud.com/images/logo.ico "Mushfiq Mahmud Logo") 
+
 # Digital-Chord-Chart
 Source code for my Arduino UNO based Digital Gutiar Chord and Scale Chart. 
 [Link to Project Page](http://mushfiqmahmud.com/project2_dcc.html)
