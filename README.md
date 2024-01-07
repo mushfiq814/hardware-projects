@@ -1,11 +1,7 @@
-# PIC
-Embedded Development using Microchip PIC with MPLabX
+![Alt text](http://mushfiqmahmud.com/images/logo.ico "Mushfiq Mahmud Logo") 
+# Digital-Chord-Chart
+Source code for my Arduino UNO based Digital Gutiar Chord and Scale Chart. 
+[Link to Project Page](http://mushfiqmahmud.com/project2_dcc.html)
 
-### HelloWorld.asm
-Simple LED power by PIC digital pins
-### BlinkLEDwTimer.asm
-Using the Timer0 onboard the PIC 18F4550 to blink timers for a second
-### PowerAC.asm
-Using the PIC to act as a relay to control AC output
-### ADCDisplay.asm
-Using the onboard Analog to Digital Converter to read a pot and output to an LED
+## Brief Description
+This was the final project done by me for my MAKE Course at my University. It was a 3D printed half of a guiar neck with 5 frets that had LEDs on each fret position for each string and would light up at the desginated position to show one how to play guitar chords and scales. And IR remote and LCD screen were also incorporated to guide the user. Since this was a prototype, it only had a few settings. This was also my first time using an Arduino or Microcontroller. This project uses C++.
